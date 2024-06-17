@@ -1,6 +1,6 @@
 // Funciones puras
 
-// Side Effects
+// Side Effects - Efectos laterales
 // 1. Modificar variables globales
 // 2. Modificar parÃ¡metros
 // 3. Solicitudes HTTP
