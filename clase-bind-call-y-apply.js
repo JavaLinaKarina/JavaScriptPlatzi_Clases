@@ -16,3 +16,4 @@ dogGreeting.call(newHouse, owner, address)
 const necessaryValues = [ owner, address]
 
 dogGreeting.apply(newHouse,necessaryValues)
+
