@@ -19,6 +19,18 @@ const newGreetingImplicitWithTwoParameters = (name, lastName) => `Hello, I am ${
 console.log(newGreetingImplicit("Susana"))
 console.log(newGreetingImplicitWithTwoParameters("Luisa", "Carmiño"))
 
+//Lexical Binding 
 
-
-
+const finctionalCharacter={
+    
+    name:'Uncle Ben', 
+    messageWithTraditionalFunction: function (message) {
+        console.log(`${this.name} says: ${message}`)
+    },
+    messageWithArrowFunction:(message)=>{
+        console.log(`${this.name} says: ${message}`)
+    
+    }
+}
+finctionalCharacter.messageWithTraditionalFunction('With great power comes great responsability.')
+finctionalCharacter.messageWithArrowFunction('Beware of Doctor Octopus.')
