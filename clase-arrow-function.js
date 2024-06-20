@@ -34,3 +34,5 @@ const finctionalCharacter={
 }
 finctionalCharacter.messageWithTraditionalFunction('With great power comes great responsability.')
 finctionalCharacter.messageWithArrowFunction('Beware of Doctor Octopus.')
+
+console.log("Agregando cambios nuevos")
