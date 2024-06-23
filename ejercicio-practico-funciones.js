@@ -13,6 +13,8 @@ function PowerpuffGirl(name, color, superPower){
         Power: ${this.superPower}`
     )
     }
+    this.becomeLeader=function(){this.isLeader=true
+    console.log(`${this.name} has become the leader of the Powerpuff Girls !`)}}
 }
 
 
@@ -23,3 +25,9 @@ const sad = new PowerpuffGirl("Sad", "Grey", "being blue")
 blossom.displayInfo()
 violet.displayInfo()
 sad.displayInfo()
+
+blossom.becomeLeader()
+blossom.displayInfo()
+buttercup.displayInfo()
+bubbles.displayInfo()
+
