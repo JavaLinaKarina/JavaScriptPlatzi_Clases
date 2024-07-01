@@ -44,6 +44,9 @@ const hobbie3 = 'Caminar'
 const hobbies = 'Mis hobbies son: '.concat(hobbie1, ', ',hobbie2, ', ',hobbie3, '.')
 
 console.log(hobbies)
+console.log("empieza la contribucción de Lina Lainakmr"
+
+
 
 
 
